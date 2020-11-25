@@ -31,7 +31,7 @@ contains
   do i=1,n
     psi(i,i) = 1.0_dp
   end do
-  ! find the sum of all off-diagonal elementss suqared (b2)
+  ! find the sum of all off-diagonal elementss suqared (offd)
   offd = 0.0_dp
   do i=1,n
     do j=1,n
